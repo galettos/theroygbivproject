@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Theroygbivproject</title>
+	<link href='http://fonts.googleapis.com/css?family=Vollkorn|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="/css/style.css"> <!-- Resource style -->
+	<script src="/js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="//use.typekit.net/may5gwk.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+	<%= yield %>
+
+
+<script src="/js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
